@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^dashboard$ index.php [L]
+RewriteRule ^data_divisi$ data_divisi.php [L]
+RewriteRule ^tambah_divisi$ tambah_divisi.php [L]
+RewriteRule ^edit_divisi$ edit_divisi.php [L]
+RewriteRule ^data_pegawai$ data_pegawai.php [L]
+RewriteRule ^tambah_pegawai$ tambah_pegawai.php [L]
+RewriteRule ^edit_pegawai$ edit_pegawai.php [L]
+RewriteRule ^kontrak$ kontrak.php [L]
+RewriteRule ^data_absen$ data_absen.php [L]
+RewriteRule ^data_kehadiran$ data_kehadiran.php [L]
+RewriteRule ^cetak_gaji$ cetak_gaji.php [L]
+RewriteRule ^logout$ logout.php [L]
+
+</IfModule>

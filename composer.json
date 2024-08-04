@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.17",
+        "twbs/bootstrap": "^5.3",
+        "dompdf/dompdf": "^3.0"
+    }
+}
